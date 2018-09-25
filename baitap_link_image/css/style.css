@@ -1,0 +1,28 @@
+*{
+    font-size: 28px;
+    text-decoration: none;
+}
+.warp{
+    width: 1000px;
+    margin: auto;
+}
+.photo{ 
+    width: 300px;
+    margin-top: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+.photo img{
+    max-width: 300px;
+    border: 5px solid #dddddd;;
+    border-color: brown;
+}
+.photo p{
+    padding-left:  40px;
+    margin-top: 0;
+}
+
+a:hover{
+    color: red;
+}
