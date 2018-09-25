@@ -1,12 +1,25 @@
 *{
     margin-left: 20px;
     font-size: 18px;
+    text-decoration: none;
+}
+
+h1{
+    font-size: 1.5em;
+}
+h1.head{
+    margin-bottom: 30px; 
+}
+a h2{
+    position: absolute;
+    top: -512px;
+
+}
+a{
+    position: relative;
 }
 img{
     max-width: 500px;
-}
-h1{
-    font-size: 1.5em;
 }
 .info{
     margin-left: 50px;
