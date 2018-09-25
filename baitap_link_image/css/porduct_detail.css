@@ -15,10 +15,12 @@ h1{
 }
 table{
     border: 1px solid #000000;
+    border-collapse: collapse;
 }
 th{
-    width: 350px;
+    width: 200px;
     border: 1px solid #000000;
+    padding: 10px;
 }
 td{
     border: 1px solid #000000;
