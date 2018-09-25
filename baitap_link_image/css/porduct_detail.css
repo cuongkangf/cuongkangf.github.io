@@ -1,3 +1,26 @@
+*{
+    margin-left: 20px;
+}
 img{
-    max-width: 500px; 
+    max-width: 500px;
+}
+h1{
+    font-size: 1.5em;
+}
+.info{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: justify;   
+}
+table{
+    border: 1px solid #000000;
+}
+th{
+    width: 350px;
+    border: 1px solid #000000;
+}
+td{
+    border: 1px solid #000000;
+    padding: 10px;
+
 }
