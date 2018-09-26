@@ -12,14 +12,16 @@ h1.head{
 }
 a h2{
     position: absolute;
-    top: -512px;
+    top: 45px;
 
 }
-a{
+/* a{
     position: relative;
-}
+} */
 img{
+    position: relative;
     max-width: 500px;
+    margin-top: 10px;
 }
 .info{
     margin-left: 50px;
