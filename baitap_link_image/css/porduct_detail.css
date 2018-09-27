@@ -15,9 +15,6 @@ a h2{
     top: 45px;
 
 }
-/* a{
-    position: relative;
-} */
 img{
     position: relative;
     max-width: 500px;
@@ -31,6 +28,10 @@ img{
 table{
     border: 1px solid #000000;
     border-collapse: collapse;
+}
+.row_heading{
+    background-color: gray;
+    color: white;
 }
 th{
     width: 200px;
