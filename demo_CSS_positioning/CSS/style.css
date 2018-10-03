@@ -10,7 +10,7 @@ body{
 h1{
     margin: 30px 0 10px 0;
     color: #404040;
-    font-size: 24px;
+    font-size: 24px;    
 }
 
 #main-menu{
@@ -24,35 +24,40 @@ h1{
     border-bottom: 1px solid #dddddd;
 }
 
-#main-menu > a:first-child{
+#link-image{
+    width: 20%;
     position: absolute;
-    top: -90px;
+    top: -86px;
     left: 0px;
-    padding: 4px;
-    background-color: white;
     border-radius: 50%;
 }
 
-#main-menu > a:first-child > img{
-    max-width: 160px;
+#link-image > img{
     border-radius: 50%;
+    
+    width: 100%;
 }
 
 #main-menu a{
     padding: 15px;
     font-size: 20px;
-    color: black;
     text-decoration: none;
 }
 #main-menu a:hover, #main-menu a:active{
     color: #ff0000;
 }
-
 #main-menu a:active{
     font-weight: bold;
 }
+.link-text{
+    font-weight: bold;
+    color:  green;
+}
 
-img{
+#banner{
+    position: relative;
+}
+#banner-img{
     max-width: 100%;
 }
 
@@ -82,11 +87,16 @@ p.truong::before{
 
 #chat{
     position: fixed;
+    width: 10%;
     right: 10px;
     bottom: 10px;
 }
 
 #chat img{
-    max-width: 30%;
     border-radius: 50%;
+    max-width: 30%;
+}
+
+#footer{
+    margin-bottom: 5px;
 }
