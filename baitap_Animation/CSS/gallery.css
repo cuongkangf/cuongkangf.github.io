@@ -2,6 +2,7 @@
     display: inline-block;
     width: 100%;
     border: 1px solid white;
+    margin-top: 30px; 
 }
 .col{
     float: left;
@@ -22,6 +23,7 @@
 }
 .thumb1{
     transition: all 0.5s ease;
+    margin-bottom: 5px;
 }
 .thumb2{
     overflow: hidden;
@@ -31,14 +33,14 @@
 }
 
 .thumb1:hover{
-    transform: translate(0,-15px);
+    transform: translate(0,-25px);
     box-shadow: 0 10px 10px 0px rgba(255, 0, 0, 0.2)
 }
 .thumb2:hover img{
     transform: scale(1.5);
     opacity: 0.5;
 }
-@keyframes album_anh_animation{
+@keyframes text_animation{
     0%{
         color: white;
         background-color: blue;
@@ -61,9 +63,44 @@
     }
 } 
 
-.album_anh{
+.album_anh_text{
     text-align: center;
     background-color: aqua;
     padding: 10px;
-    animation: album_anh_animation 10s ease infinite;
+    animation: text_animation 10s ease infinite;
+}
+
+#footer {
+    margin-bottom: 5px;
+    height: 100px;	
+    overflow: hidden;
+    position: relative;
+}
+
+#footer p {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: right;
+    
+    transform:translateX(100%);
+    animation: scroll-left 10s linear infinite;
+}
+ 
+@keyframes scroll-left {
+    0% { 
+        transform: translateX(100%); 		
+    }
+    35% {
+        transform: translateX(0%); 
+    }
+    80% {
+        opacity: 1;
+        transform: translateX(0%);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-100%);
+    }
 }

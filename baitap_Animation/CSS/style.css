@@ -79,37 +79,3 @@ h1{
     max-width: 30%;
 }
 
-#footer {
-    margin-bottom: 5px;
-    height: 100px;	
-    overflow: hidden;
-    position: relative;
-}
-
-#footer p {
-    position: absolute;
-    width: 100%;
-    margin: 0;
-    line-height: 50px;
-    text-align: right;
-    
-    transform:translateX(100%);
-    animation: scroll-left 10s linear infinite;
-}
- 
-@keyframes scroll-left {
-    0% { 
-        transform: translateX(100%); 		
-    }
-    15% {
-        transform: translateX(0%); 
-    }
-    85% {
-        opacity: 1;
-        transform: translateX(0%);
-    }
-    100% {
-        opacity: 0;
-        transform: translateX(-100%);
-    }
-}
