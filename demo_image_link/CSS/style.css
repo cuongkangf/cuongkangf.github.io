@@ -1,29 +1,40 @@
-img{
+img
+{
     width: 200px;
 }
-a:link{
+
+a:link
+{
     color: orangered;
 }
-a:visited{
+
+a:visited
+{
     color: blue;
 }
-a:hover{
+
+a:hover
+{
     color: red;
 }
+
 a:active
 {
     color: green;
 }
 
-b.hocphi::after{
+b.hocphi::after
+{
     content: " VND";
 }
 
-p.truong::before{
+p.truong::before
+{
     content: "Trường đại học ";
 }
 
-::selection{
+::selection
+{
     background-color: black;
     color: white;
 }
